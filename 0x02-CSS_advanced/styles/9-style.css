@@ -1,4 +1,4 @@
-/* Defining line heights: 8-style.css */
+/* Style the anchor elements: 9-style.css */
 
 :root {
     /* Colors */
@@ -40,6 +40,7 @@ body {
 
 a {
     color: var(--text-color);
+    text-decoration: none;
 }
 
 .visually-hidden {
