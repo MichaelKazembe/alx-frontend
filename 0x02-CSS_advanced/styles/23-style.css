@@ -209,7 +209,7 @@ ul.row {
     display: block;
 }
 
-.social-link:nth-child() {
+.social-link:nth-child("svg") {
     color: var(--text-color);
 }
 
