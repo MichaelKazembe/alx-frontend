@@ -50,6 +50,12 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
+[data-section-theme="dark"] {
+    --text-color:var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+}
+
 *,
 *:before,
 *:after {
@@ -176,6 +182,12 @@ ul.row {
     width: 50%;
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 [class^="col-"] {
     float:  left;
     padding: 0.5rem;
@@ -209,18 +221,6 @@ ul.row {
     display: block;
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-[data-section-theme="dark"] {
-    --text-color:var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
 }
