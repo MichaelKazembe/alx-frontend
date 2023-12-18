@@ -57,14 +57,14 @@
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
-    --button-hover-background: var(--color-primary);
+    --button-hovebeer-background: var(--color-primary);
 }
 
 [data-section-theme="dark"] {
     --text-color:var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
-    --button-color: var(var(--color-white))
+    --button-color: var(--color-white);
 }
 
 *,
