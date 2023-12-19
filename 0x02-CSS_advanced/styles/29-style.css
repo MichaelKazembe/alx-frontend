@@ -153,13 +153,13 @@ a:active {
 }
 
 .nav .nav-link::before {
-    content: empty;
+    content: "";
     position: absolute;
-    bottom: 0;
+    left: 0;
     top: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
 }
 
 .nav .nav-item::before .nav-link {
