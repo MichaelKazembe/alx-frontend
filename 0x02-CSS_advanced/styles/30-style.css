@@ -227,7 +227,7 @@ a:active {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
     object-fit: cover;
     vertical-align: bottom;
     width: 100%;
